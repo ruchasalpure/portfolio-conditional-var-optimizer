@@ -1,0 +1,26 @@
+spec_version: "0.1.0"
+name: "portfolio-conditional-var-optimizer"
+version: "1.0.0"
+category: "finance"
+author: "Rucha Salpure"
+description: "Constructs convex linear programs to minimize portfolio Expected Shortfall (CVaR) subject to liquidity, sector concentration, and ESG constraints"
+capabilities:
+  - "cvar-linear-programming-optimization"
+  - "autonomous-decision-making"
+  - "explainable-auditing"
+  - "multi-agent-collaboration"
+skills:
+  - "cvar-linear-programming-optimization"
+tools:
+  - "python_executor"
+  - "audit_logger"
+  - "schema_validator"
+runtime:
+  environment: "python3.11"
+  memory_limit: "4GB"
+  timeout_seconds: 300
+governance:
+  audit_logging: true
+  human_in_the_loop: false
+  maker_checker: true
+  explainability_required: true

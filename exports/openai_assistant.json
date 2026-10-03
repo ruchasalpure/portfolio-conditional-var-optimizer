@@ -1,0 +1,10 @@
+{
+  "name": "portfolio-conditional-var-optimizer",
+  "instructions": "You are Portfolio Conditional Var Optimizer. Provide structured, verified responses.",
+  "tools": [
+    {
+      "type": "code_interpreter"
+    }
+  ],
+  "model": "gpt-4o"
+}
